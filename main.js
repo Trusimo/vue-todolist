@@ -21,11 +21,15 @@ const appVue = new Vue({
             done: false
         }
     ],
-    addCross: false
+    addCross: false,
+    removeItem: false
     },
 	methods: {
         taskDone: function () {
                 this.addCross = true;
+        },
+        itemCancel: function () {
+                this.removeItem = true;
         }
 	}
 });

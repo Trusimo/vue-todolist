@@ -17,6 +17,7 @@
             <div class= "flex" v-for="item in toDo" :class="{'crosslined': addCross}">
                 {{item.text}}
                 <button type="button" class="btn btn-outline-success" @click="taskDone(index)">Fatto</button>
+                <button type="button" class="btn btn-danger" @click="itemCancel">X</button>
             </div>
 
         </div>

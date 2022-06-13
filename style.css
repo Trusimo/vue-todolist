@@ -12,3 +12,7 @@ body {
 .crosslined {
     text-decoration: line-through;
 }
+
+.disNone {
+    display: none;
+}
