@@ -21,11 +21,11 @@ const appVue = new Vue({
             done: false
         }
     ],
-    msg: "Messaggio s"
+    addCross: false
     },
 	methods: {
-        taskDone: function (index) {
-            this.index = "text-decoration-line-through" + index;
+        taskDone: function () {
+                this.addCross = true;
         }
 	}
 });

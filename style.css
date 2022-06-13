@@ -8,3 +8,7 @@ body {
     gap: 20px;
     padding: 20px;
 }
+
+.crosslined {
+    text-decoration: line-through;
+}
