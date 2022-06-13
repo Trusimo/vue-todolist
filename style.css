@@ -3,6 +3,8 @@ body {
     color: rgb(26, 45, 45);
 }
 
-h1 {
-    text-align: center;
+.flex {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
 }
