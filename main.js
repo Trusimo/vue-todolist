@@ -3,7 +3,7 @@ const appVue = new Vue({
     el: "#app",
 
     data: {
-        ToDo: [
+        toDo: [
         {
             text: "Seguire lezione",
             done: false
@@ -20,11 +20,12 @@ const appVue = new Vue({
             text: "Andare a calcetto",
             done: false
         }
-    ]
+    ],
+    msg: "Messaggio s"
     },
 	methods: {
-        done: function () {
-            this.text = "text-decoration-line-through";
+        taskDone: function (index) {
+            this.index = "text-decoration-line-through" + index;
         }
 	}
 });
