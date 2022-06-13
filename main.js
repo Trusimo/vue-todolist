@@ -21,6 +21,8 @@ const appVue = new Vue({
         }
 ),
 	methods: {
-
+        done: function () {
+            this.text = "text-decoration-line-through";
+        }
 	}
 });
